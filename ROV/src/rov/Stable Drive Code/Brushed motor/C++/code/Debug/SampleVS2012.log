@@ -1,0 +1,22 @@
+﻿Build started 3/7/2015 5:33:23 PM.
+     1>Project "C:\Users\saras_000\Documents\ROV git\ROV\src\rov\Stable Drive Code\Brushed motor\C++\code\SampleVS2012.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ROV_Drive.cpp
+         ROV_Drive.cpp
+     1>c:\users\saras_000\documents\rov git\rov\src\rov\stable drive code\brushed motor\c++\code\rov_drive.cpp(91): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(911) : see declaration of '_sleep'
+     1>c:\users\saras_000\documents\rov git\rov\src\rov\stable drive code\brushed motor\c++\code\rov_drive.cpp(178): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\saras_000\documents\rov git\rov\src\rov\stable drive code\brushed motor\c++\code\rov_drive.cpp(307): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(911) : see declaration of '_sleep'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\saras_000\Documents\ROV git\ROV\src\rov\Stable Drive Code\Brushed motor\C++\code\Debug\Sample.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\lib\x86 Leapd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\saras_000\Documents\ROV git\ROV\src\rov\Stable Drive Code\Brushed motor\C++\code\Debug\Sample.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\saras_000\Documents\ROV git\ROV\src\rov\Stable Drive Code\Brushed motor\C++\code\Debug\Sample.lib" /MACHINE:X86 Debug\ROV_Drive.obj
+         SampleVS2012.vcxproj -> C:\Users\saras_000\Documents\ROV git\ROV\src\rov\Stable Drive Code\Brushed motor\C++\code\Debug\Sample.exe
+       PostBuildEvent:
+         copy ..\lib\x86\Leapd.dll "C:\Users\saras_000\Documents\ROV git\ROV\src\rov\Stable Drive Code\Brushed motor\C++\code\Debug\"
+         :VCEnd
+                 1 file(s) copied.
+     1>Done Building Project "C:\Users\saras_000\Documents\ROV git\ROV\src\rov\Stable Drive Code\Brushed motor\C++\code\SampleVS2012.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.76
